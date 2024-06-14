@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+      font-family: 'Lora';
+      src: url('./assets/font/Lora-VariableFont_wght.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Montserrat';
+      src: url('./assets/font/Montserrat-VariableFont_wght.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Montserrat-Regular';
+      src: url('./assets/font/Montserrat-Regular.woff') format('woff');
+  }
+  @font-face {
+      font-family: 'Montserrat-Bold';
+      src: url('./assets/font/Montserrat-Bold.woff') format('woff');
+  }
+}
