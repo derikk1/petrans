@@ -6,11 +6,16 @@ const routes = [
         name: 'views.home',
         component: () => import('@/views/Home.vue')
     },
-    // {
-    //     path: '/bussiness-process',
-    //     name: 'views.home',
-    //     component: () => import('@/views/Home.vue')
-    // },
+    {
+        path: '/admin',
+        name: 'views.admin',
+        component: () => import('@/views/Admin.vue')
+    },
+    {
+        path: '/login',
+        name: 'views.login',
+        component: () => import('@/views/Login.vue')
+    },
 ]
 
 const router =  createRouter({
@@ -18,4 +23,4 @@ const router =  createRouter({
     routes
 })
 
-export default router
+export default router

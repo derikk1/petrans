@@ -22,7 +22,7 @@
             </div>
         </div>
     
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center drop-shadow-lg">
             <div class="w-[1219px] h-[223px] bg-[#F6F5F5] pt-4 rounded-sm">
                 <div class="bg-[#D9D9D9]">
                     <h1 class="text-[#00000] text-center text-xl py-2 font-montserrat-bold font-bold">
@@ -92,9 +92,100 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col gap-4">
-            <img class="w-[1219px] mx-auto" src="../../assets/img/shipment.png">
+        <div class="flex flex-col items-center drop-shadow-lg">
+            <div class="w-[1219px] bg-[#F6F5F5] pt-4 pb-4 rounded-sm">
+                <div class="flex gap-4 justify-center items-center mt-10">
+                    <!-- DEPART -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-red-700 rounded-full h-[53px] w-[207px] flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">DEPART</span>
+                        </div>
+                    </div>
+                    <!-- Panah -->
+                    <div class="flex items-center">
+                        <div class="h-[2px] w-[50px] bg-red-700"></div>
+                        <div class="w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-l-[20px] border-l-red-700"></div>
+                    </div>
+                    <!-- TRANSIT -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-red-700 rounded-full h-[53px] w-[207px] flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">TRANSIT</span>
+                        </div>
+                    </div>
+                    <!-- Panah -->
+                    <div class="flex items-center">
+                        <div class="h-[2px] w-[50px] bg-red-700"></div>
+                        <div class="w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-l-[20px] border-l-red-700"></div>
+                    </div>
+                    <!-- ARRIVE AT -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-red-700 rounded-full h-[53px] w-[207px] flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">ARRIVE AT</span>
+                        </div>
+                    </div>
+                    <!-- Panah -->
+                    <div class="flex items-center">
+                        <div class="h-[2px] w-[50px] bg-red-700"></div>
+                        <div class="w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-l-[20px] border-l-red-700"></div>
+                    </div>
+                    <!-- DELIVERY -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-red-700 rounded-full h-[53px] w-[207px] flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">DELIVERY</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-4 justify-center items-start mt-10">
+                    <!-- DEPART Details -->
+                    <div class="flex flex-col items-center w-[207px]">
+                        <div class="text-left">
+                            <p class="font-bold">01 Januari 2023</p>
+                            <p>12:03:00</p>
+                            <p>Barang masih dalam proses</p>
+                        </div>
+                    </div>
+                    <!-- Empty space for the arrow -->
+                    <div class="flex items-center">
+                        <div class="h-[2px] w-[50px] invisible"></div>
+                    </div>
+                    <!-- TRANSIT Details -->
+                    <div class="flex flex-col items-center w-[207px]">
+                        <div class="text-left">
+                            <p class="font-bold">01 Januari 2023</p>
+                            <p>12:03:00</p>
+                            <p>Barang masih dalam proses</p>
+                        </div>
+                    </div>
+                    <!-- Empty space for the arrow -->
+                    <div class="flex items-center">
+                        <div class="h-[2px] w-[50px] invisible"></div>
+                    </div>
+                    <!-- ARRIVE AT Details -->
+                    <div class="flex flex-col items-center w-[207px]">
+                        <div class="text-left">
+                            <p class="font-bold gap-1">Tanjung Priuk Port</p>
+                            <p class="font-bold">01 Januari 2023</p>
+                            <p>12:03:00</p>
+                            <p>Barang masih dalam proses</p>
+                        </div>
+                    </div>
+                    <!-- Empty space for the arrow -->
+                    <div class="flex items-center">
+                        <div class="h-[2px] w-[50px] invisible"></div>
+                    </div>
+                    <!-- DELIVERY Details -->
+                    <div class="flex flex-col items-center w-[207px]">
+                        <div class="text-left">
+                            <p class="font-bold gap-1">Inland Port</p>
+                            <p class="font-bold">Banshu Plastic</p>
+                            <p>Jl H Imran No 19</p>
+                            <p class="font-bold">01 Januari 2023</p>
+                            <p>12:03:00</p>
+                            <p>Barang masih dalam proses</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
 </template>
