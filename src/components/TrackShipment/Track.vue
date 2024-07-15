@@ -36,25 +36,25 @@
                             <label class="uppercase text-[#00000] text-sm font-montserrat-bold font-bold">
                                 shipper :
                             </label>
-                            <span>test</span>
+                            <!-- <span>test</span> -->
                         </div>
                         <div class="flex items-center gap-2">
                             <label class="uppercase text-[#00000] text-sm font-montserrat-bold font-bold">
                                 consignee :
                             </label>
-                            <span>test</span>
+                            <!-- <span>test</span> -->
                         </div>
                         <div class="flex items-center gap-2">
                             <label class="uppercase text-[#00000] text-sm font-montserrat-bold font-bold">
                                 b/l no :
                             </label>
-                            <span>test</span>
+                            <!-- <span>test</span> -->
                         </div>
                         <div class="flex items-center gap-2">
                             <label class="uppercase text-[#00000] text-sm font-montserrat-bold font-bold">
                                 invoice no :
                             </label>
-                            <span>test</span>
+                            <!-- <span>test</span> -->
                         </div>
 
                     </div>
@@ -64,28 +64,28 @@
                                 etd :
                             </label>
 
-                            <span>test</span>
+                            <!-- <span>test</span> -->
                         </div>
                         <div class="flex items-center gap-2">
                             <label class="uppercase text-[#00000] text-sm font-montserrat-bold font-bold">
                                 eta :
                             </label>
 
-                            <span>test</span>
+                            <!-- <span>test</span> -->
                         </div>
                         <div class="flex items-center gap-2">
                             <label class="uppercase text-[#00000] text-sm font-montserrat-bold font-bold">
                                 shipment method :
                             </label>
 
-                            <span>test</span>
+                            <!-- <span>test</span> -->
                         </div>
                         <div class="flex items-center gap-2">
                             <label class="uppercase text-[#00000] text-sm font-montserrat-bold font-bold">
                                 cargo type :
                             </label>
 
-                            <span>test</span>
+                            <!-- <span>test</span> -->
                         </div>
 
                     </div>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="flex gap-4 justify-center items-start mt-10">
                     <!-- DEPART Details -->
-                    <div class="flex flex-col items-center w-[207px]">
+                    <div class="flex flex-col items-center w-[230px]">
                         <div class="text-left">
                             <p class="font-bold">01 Januari 2023</p>
                             <p>12:03:00</p>
@@ -149,7 +149,7 @@
                         <div class="h-[2px] w-[50px] invisible"></div>
                     </div>
                     <!-- TRANSIT Details -->
-                    <div class="flex flex-col items-center w-[207px]">
+                    <div class="flex flex-col items-center w-[230px]">
                         <div class="text-left">
                             <p class="font-bold">01 Januari 2023</p>
                             <p>12:03:00</p>
@@ -161,7 +161,7 @@
                         <div class="h-[2px] w-[50px] invisible"></div>
                     </div>
                     <!-- ARRIVE AT Details -->
-                    <div class="flex flex-col items-center w-[207px]">
+                    <div class="flex flex-col items-center w-[230px]">
                         <div class="text-left">
                             <p class="font-bold gap-1">Tanjung Priuk Port</p>
                             <p class="font-bold">01 Januari 2023</p>
@@ -174,7 +174,7 @@
                         <div class="h-[2px] w-[50px] invisible"></div>
                     </div>
                     <!-- DELIVERY Details -->
-                    <div class="flex flex-col items-center w-[207px]">
+                    <div class=" flex flex-col items-center w-[230px]">
                         <div class="text-left">
                             <p class="font-bold gap-1">Inland Port</p>
                             <p class="font-bold">Banshu Plastic</p>

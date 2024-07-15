@@ -11,11 +11,13 @@
                 </svg>
             </button>
 
-            <ul :class="['flex items-center gap-4', { 'hidden': !menuOpen, 'flex-col': menuOpen, 'md:flex': !menuOpen }]">
-                <li v-for="(menu, index) in menus" :key="menu.id" class="md:my-0 my-2">
-                    <a @click="setActiveMenu(menu.id)" :href="menu.link" :class="{'font-bold text-black': menu.id === activeMenu}" class="uppercase cursor-pointer font-montserrat-regular text-xs text-[#000000]">{{ menu.name }}</a>
-                </li>
-            </ul>
+            <div class="pr-8">
+                <ul :class="['flex items-center gap-4', { 'hidden': !menuOpen, 'flex-col': menuOpen, 'md:flex': !menuOpen }]">
+                    <li v-for="(menu, index) in menus" :key="menu.id" class="md:my-0 my-2">
+                        <a @click="setActiveMenu(menu.id)" :href="menu.link" :class="{'font-bold text-black': menu.id === activeMenu}" class="uppercase cursor-pointer font-montserrat-regular text-xs text-[#000000]">{{ menu.name }}</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 </template>
@@ -24,12 +26,9 @@
 import { ref } from 'vue'
 
 const menus = ref([
-    { id: '1', name: 'Home', link: '#' },
-    { id: '2', name: 'Business Process', link: '#business-process' },
-    { id: '3', name: 'Our Service', link: '#our-service' },
-    { id: '4', name: 'Partners Business', link: '#partner-business' },
-    { id: '5', name: 'Contact Us', link: '#contact-us' },
-    { id: '6', name: 'Track Shipment', link: '#track-shipment' },
+    { id: '1', name: 'Home', link: '/' },
+    { id: '2', name: 'Contact Us', link: '#' },
+    { id: '3', name: 'Track Shipment', link: '#' },
 ])
 
 const activeMenu = ref('1')

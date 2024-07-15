@@ -1,6 +1,6 @@
 <script setup>
-import Navbar from '@/components/Navbar/Navbar.vue'
-import Footer from '@/components/Footer/Footer.vue'
+import Navbar from '@/components/Navbars/Navbar.vue'
+import Footer from '@/components/Footers/Footer.vue'
 import Carousel from '@/components/Carousel/Carousel.vue'
 import HomeBody from '@/components/HomeBody/Body.vue'
 import BusinessProcess from '@/components/BusinessProcess/Business.vue'
